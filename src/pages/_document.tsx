@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript} from 'next/document'
+import Image from 'next/image'
 
 export default class MyDocument extends Document{
   render(){
@@ -7,6 +8,7 @@ export default class MyDocument extends Document{
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet"/>
+          <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         </Head>
         <body>
           <Main/>
