@@ -1,12 +1,16 @@
 import NextAuth from "next-auth"
-import GitlabProvider from "next-auth/providers/gitlab";
+import GitHubProvider from "next-auth/providers/github";
 
 export default NextAuth({
   providers: [
-    GitlabProvider({
-      clientId: process.env.GITLAB_CLIENT_ID,
-      clientSecret: process.env.GITLAB_CLIENT_SECRET,
-      scope: 'read:user'
+    GitHubProvider({
+      clientId: process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.GITHUB_CLIENT_SECRET,
+      authorization: {
+        params: {
+          scope: 'read:user',
+        },
+      },
     }),
   ],
 })
