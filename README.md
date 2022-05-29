@@ -1,37 +1,96 @@
+<h1 align="center">
+    <img alt="Ig News" title="#ig_news" src="./github/ignews.png" />
+</h1>
 
-🚧 Em construção
+<p align="center">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ncgc/ig_news?style=plastic">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ncgc/ig_news?color=purple&style=plastic">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=plastic">
+  <img alt="Course" src="https://img.shields.io/badge/course-ignite-yellow?style=plastic">
+</p>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br>
+  
+<p align="center">
+🚧 Em desenvolvimento
+ <a href="#projeto">Projeto</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#autor">Autor</a>
+</p>
 
-## Getting Started
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
+<p align="center">
+  <img alt="Demo" src="">
+</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-----
+<div id="instalacao">
+  
+  ## Instalação
+  
+  ### Pré-Requisitos
+  Antes de começar, você vai precisar ter instalado em sua máquina o [Git]('https://git-scm.com/downloads'), [Node v.16]('https://nodejs.org/en/') e [Yarn v.1.22]('https://classic.yarnpkg.com/lang/en/docs/install/)
+  
+<br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  ### Execução do projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  ```
+    # Clone o repositório
+    $ git clone https://github.com/ncgc/ig_news.git
 
-## Learn More
+    # Vá ao repositório
+    $ cd ig_news
 
-To learn more about Next.js, take a look at the following resources:
+    # Instale as dependências
+    $ yarn install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    # Execute
+    $ yarn start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  ```
 
-## Deploy on Vercel
+  ### Testes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ```
+  $ yarn test
+  ```
+  
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+<div id="tecnologias">
+
+## Tecnologias
+
+  <img  alt="REACT" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img  alt="TYPESCRIPT" height="50" width="60" src="https://raw.github.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  
+  
+</div>
+
+<br>
+
+<div id="contribuicao">
+
+## Contribução
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+
+</div>
+
+<br>
+
+----
+<div id="autor" align="center">
+Feito com 💜 por ncgc e Rocketseat
+</div>
